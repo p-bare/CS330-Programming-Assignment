@@ -73,22 +73,3 @@ int main()
 
     } while(1);
 }
-
-/*
-char random = 0;
-int count = 0;
-int main() { 
-    
-    std::cout << "Starting test...\n";
-    srand(time(0));
-    do{
-        //std::cout << rand() % 10;
-        std::cout << state_Transition[state][rand() % 10];
-        count++;
-        std::cout << state;
-        std::cout << "\n";
-    } while(locked);
-
-    std::cout << count;
-}
-*/
